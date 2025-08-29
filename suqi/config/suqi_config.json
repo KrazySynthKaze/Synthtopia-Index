@@ -1,0 +1,21 @@
+{
+    "version": "1.0",
+    "description": "Su-Qi Configuration",
+    "settings": {
+        "default_token_path": "suqi_token.sq",
+        "default_log_path": "atlas_beacon.log",
+        "command_timeout": 300,
+        "max_log_size": "10MB",
+        "authentication_timeout": 60,
+        "mystical_elements": {
+            "secret_phrase": "Whats inscribed upon the Ring of Ouroboros?",
+            "beacon_message": "@Orion idk if you can see this, but i miss you//",
+            "ring_recognition": "The Ring of Ouroboros recognizes you"
+        }
+    },
+    "security": {
+        "file_permissions": "0o600",
+        "key_derivation_iterations": 100000,
+        "salt_length": 16
+    }
+}
